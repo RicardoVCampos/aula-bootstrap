@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+}
+.searchBar{
+    width: 40vw;
+}
+.searchBar input{
+    width: 35vw;
+    height: 6vh;
+    background-color: #dedcdc;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.searchBar input::placeholder{
+    padding-left: 15px;
+}
+#lupa{
+    margin-left: -2.5vw;
+    color: gray;
+}
+.redirect{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 7vh;
+    width: 18vw;
+}
+.redirect button{
+    width: 8vw;
+    height: 6vh;
+    background-color: #c92071;
+    border: none;
+    color: white;
+    border-radius: 7px;
+}
+.redirect a{
+    color: rgb(85, 83, 83);
+}
+.divCarrinho{
+    height: 7vh;
+    width: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#shoppingCart{
+    color: #c92071;
+    font-size: 18px;
+}
+
+
